@@ -10,8 +10,8 @@ data: {
 
 },
 actions:[
-    {action:'explore',title:'explore this new world'},
-    {action:'close',title:'Close'},
+    {action:'explore',title:'explore this new world',icon:'images/checkmark.png'},
+    {action:'close',title:'Close',icon:'images/xmark.png'},
 ]
 };
 e.waitUntil(
