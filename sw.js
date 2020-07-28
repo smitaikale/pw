@@ -10,7 +10,7 @@ data: {
 
 },
 actions:[
-    {action:'explore',title:'explore this new world',icon:'images/checkmark.png'},
+    //{action:'explore',title:'explore this new world',icon:'images/checkmark.png'},
     {action:'close',title:'Close',icon:'images/xmark.png'},
 ]
 };
