@@ -6,7 +6,7 @@ let vapidKeys={
   };
 
   push.setVapidDetails(
-    'mailto:smita.ikale@ness.com'
+    'smita.ikale@ness.com'
     ,vapidKeys.publicKey
     ,vapidKeys.privateKey
     );
