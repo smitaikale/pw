@@ -5,7 +5,7 @@ body: 'this notification was generated from a push',
 icon:'images/example.png',
 vibrate:[100,50,100],
 data:{
-    dateOfArrival:Date.now(),
+    dateOfArrival:Date.now,
     primaryKey:'2'
 
 },
