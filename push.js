@@ -4,7 +4,7 @@ let vapidKeys={
     privateKey: 'saADRtj2bQuRjc5wdl6J_3HWDpld_IFqWq7l4b8aScU'
   }
 
-  push.setVapidDetails('mailto:smitaikale86@gmail.com',vapidKeys.publicKey,vapidKeys.privateKey);
+  push.setVapidDetails('mailto:smita.ikale@ness.com',vapidKeys.publicKey,vapidKeys.privateKey);
 
 
   let sub=
