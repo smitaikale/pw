@@ -7,5 +7,12 @@ let vapidkeys={
   push.setVapidDetails('smitaikale86@gmail.com',vapidkeys.publicKey,vapidkeys.privateKey);
 
 
-  let sub={};
+  let sub={
+    endpoint:"https://fcm.googleapis.com/fcm/send/dCcGCyK2-0o:APA91bEBUCPA72lhbs0O1Tfsy-pld0gA2cN3nJIROe1RU45U0HHLCorztAbf0V_J5aPd1GNGlMiV8dLB1Uv8Ak_YTtCG6mvZ_WrPFx6ZbhZRjpS2GcD2iNX0rFlwYwHJwTVYZJioEJ0y",
+    expirationTime:null,
+    keys:{
+      p256dh:"BGaZL21R6X6qpnjDB-dUZ3AQEp5IvwHZL3AWOUxOqZuNHZ8ZT1EactzQ4aZ-ctUMttzaixn9PCWi-TXLi5GbXLM",
+      auth:"XXYlJ9cIhMbE0MFtfH29eg"
+    }
+  }
   push.sendNotification(sub,'test notification');
