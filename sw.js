@@ -2,7 +2,7 @@ self.addEventListener('push',function (e){
 
 var options = {
 body: 'this notification was generated from a push',
-icon: 'images/example.png',
+
 vibrate: [100,50,100],
 data: {
     dateOfArrival: Date.now(),
@@ -10,8 +10,8 @@ data: {
 
 },
 actions:[
-    {action:'explore',title:'explore this new world',icon:'images/checkmark.png'},
-    {action:'close',title:'Close',icon:'images/xmark.png'},
+    {action:'explore',title:'explore this new world'},
+    {action:'close',title:'Close'},
 ]
 };
 e.waitUntil(
