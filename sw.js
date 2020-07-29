@@ -15,6 +15,6 @@ actions:[
 ]
 };
 e.waitUntil(
-    self.registration.showNotification('First Notification',options)
+    self.registration.showNotification('First  Notification',options)
 );
 });
