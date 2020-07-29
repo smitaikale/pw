@@ -10,14 +10,18 @@
 <body>
 
 <button onclick="subscribe()">Subscribe</button>
-
+<button onclick="getNotification()"></button>
 <script>
 
 addEventListener('load',async () => {
 
     let sw= await navigator.serviceWorker.register('./sw.js');
    // console.log(sw);
-});     
+});  
+async function getNotification()
+{
+
+}   
 async function subscribe()
 {
     
@@ -28,8 +32,7 @@ applicationServerKey:'BBxYcX5EVrEypniCr6VBTC63WQ385spbUUQbygFTUyrF8QEyACdDBb11Wz
     })
     
     console.log(JSON.stringify(push));
-    SendNotificationMessage();
-    functiontest();
+    
 }
 </script>
 
