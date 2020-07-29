@@ -1,7 +1,7 @@
 self.addEventListener('push',function (e){
 
 var options = {
-body: 'this notification was generated from a push',
+body: 'you have one notification',
 icon: 'images/example.png',
 vibrate: [100,50,100],
 data: {
@@ -10,11 +10,11 @@ data: {
 
 },
 actions:[
-    {action:'explore',title:'explore this new world',icon:'images/checkmark.png'},
+    {action:'explore',title:'explore',icon:'images/checkmark.png'},
     {action:'close',title:'Close',icon:'images/xmark.png'},
 ]
 };
 e.waitUntil(
-    self.registration.showNotification('hello world',options)
+    self.registration.showNotification('First Notification',options)
 );
 });
