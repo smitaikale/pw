@@ -11,8 +11,8 @@ data: {
 },
 actions:[
     {action:'explore',title:'explore',icon:'images/checkmark.png'},
-    {action:'close',title:'Close',icon:'images/xmark.png'},
-    {action:'Close',title:'Close',icon:'images/xmark.png'}
+   // {action:'close',title:'Close',icon:'images/xmark.png'},
+    
 ]
 };
 e.waitUntil(
