@@ -12,9 +12,13 @@ data: {
 actions:[
     {action:'explore',title:'explore',icon:'images/checkmark.png'},
     {action:'close',title:'Close',icon:'images/xmark.png'},
+    {action:'AddMessage',title:'alert',icon:'images/xmark.png'}
 ]
 };
 e.waitUntil(
     self.registration.showNotification('First  Notification',options)
 );
 });
+function AddMessage() {
+    alert('test');
+}
