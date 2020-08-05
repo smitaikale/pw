@@ -1,7 +1,7 @@
 self.addEventListener('push',function (e){
 
 var options = {
-body: 'you have one notification',
+body: 'New Ites Notification',
 icon: 'images/example.png',
 vibrate: [100,50,100],
 data: {
@@ -16,7 +16,7 @@ actions:[
 ]
 };
 e.waitUntil(
-    self.registration.showNotification('First  Notification',options)
+    self.registration.showNotification('Notification:',options)
 );
 });
 
